@@ -258,5 +258,12 @@ nnoremap <Leader>mn :action GotoNextBookmark<CR>
 
 
 
+"   which key 提示配置 
+set which-key
+set timeoutlen = 5000
+let g:WhichKey_KeyColor="green"
+let g:WhichKey_CommandColor	="yellow"
+let g:WhichKey_FontSize	=20
+
 
 
