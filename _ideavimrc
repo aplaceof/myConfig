@@ -16,7 +16,10 @@ set clipboard=unnamed
 " (清除高亮)
 nnoremap <Leader>sc :nohlsearch<CR>
 
-nnoremap <Leader>fs :w<CR>
+
+nnoremap [m [M$%^2w    "  函数的开始
+nnoremap ]m ]M]M$%^2w  " 下一个函数的开始 
+nnoremap <Leader>sim ]MV$%
 
 
 
